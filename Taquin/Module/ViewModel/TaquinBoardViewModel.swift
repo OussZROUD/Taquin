@@ -12,7 +12,7 @@ class TaquinBoardViewModel {
     
     // MARK: - PROPERTIES
     private var taquinBoardModel: TaquinBoard? = {
-        return TaquinBoard(numShuffle: 150)
+        return TaquinBoard(numShuffle: 100)
     }()
     var delegate: ViewModelToViewDelegate?
     
@@ -47,7 +47,7 @@ class TaquinBoardViewModel {
     
     func shuffle() {
         guard let model = taquinBoardModel else { return }
-        model.shuffle(numTimes: 1)
+        model.shuffle(numTimes: 100)
     }
     
     func getTile(atRow r: Int, atColumn c: Int) -> Int {
