@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		F728AA1A2573B3FC0026E1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA192573B3FC0026E1BF /* AppDelegate.swift */; };
 		F728AA1C2573B3FC0026E1BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA1B2573B3FC0026E1BF /* SceneDelegate.swift */; };
-		F728AA1E2573B3FC0026E1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA1D2573B3FC0026E1BF /* ViewController.swift */; };
+		F728AA1E2573B3FC0026E1BF /* TaquinBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA1D2573B3FC0026E1BF /* TaquinBoardViewController.swift */; };
 		F728AA212573B3FC0026E1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F728AA1F2573B3FC0026E1BF /* Main.storyboard */; };
 		F728AA232573B3FE0026E1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F728AA222573B3FE0026E1BF /* Assets.xcassets */; };
 		F728AA262573B3FE0026E1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F728AA242573B3FE0026E1BF /* LaunchScreen.storyboard */; };
 		F728AA312573B3FE0026E1BF /* TaquinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA302573B3FE0026E1BF /* TaquinTests.swift */; };
+		F728AA3C2573B4BF0026E1BF /* TaquinBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA3B2573B4BF0026E1BF /* TaquinBoard.swift */; };
+		F728AA3E2573CAAB0026E1BF /* TaquinBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA3D2573CAAB0026E1BF /* TaquinBoardView.swift */; };
+		F728AA40257539670026E1BF /* TaquinBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728AA3F257539670026E1BF /* TaquinBoardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,7 @@
 		F728AA162573B3FC0026E1BF /* Taquin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taquin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F728AA192573B3FC0026E1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F728AA1B2573B3FC0026E1BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F728AA1D2573B3FC0026E1BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F728AA1D2573B3FC0026E1BF /* TaquinBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaquinBoardViewController.swift; sourceTree = "<group>"; };
 		F728AA202573B3FC0026E1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F728AA222573B3FE0026E1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F728AA252573B3FE0026E1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		F728AA2C2573B3FE0026E1BF /* TaquinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaquinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F728AA302573B3FE0026E1BF /* TaquinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaquinTests.swift; sourceTree = "<group>"; };
 		F728AA322573B3FE0026E1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F728AA3B2573B4BF0026E1BF /* TaquinBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaquinBoard.swift; sourceTree = "<group>"; };
+		F728AA3D2573CAAB0026E1BF /* TaquinBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaquinBoardView.swift; sourceTree = "<group>"; };
+		F728AA3F257539670026E1BF /* TaquinBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaquinBoardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,14 @@
 			children = (
 				F728AA192573B3FC0026E1BF /* AppDelegate.swift */,
 				F728AA1B2573B3FC0026E1BF /* SceneDelegate.swift */,
-				F728AA1D2573B3FC0026E1BF /* ViewController.swift */,
+				F728AA1D2573B3FC0026E1BF /* TaquinBoardViewController.swift */,
 				F728AA1F2573B3FC0026E1BF /* Main.storyboard */,
 				F728AA222573B3FE0026E1BF /* Assets.xcassets */,
 				F728AA242573B3FE0026E1BF /* LaunchScreen.storyboard */,
 				F728AA272573B3FE0026E1BF /* Info.plist */,
+				F728AA3B2573B4BF0026E1BF /* TaquinBoard.swift */,
+				F728AA3D2573CAAB0026E1BF /* TaquinBoardView.swift */,
+				F728AA3F257539670026E1BF /* TaquinBoardViewModel.swift */,
 			);
 			path = Taquin;
 			sourceTree = "<group>";
@@ -200,8 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F728AA1E2573B3FC0026E1BF /* ViewController.swift in Sources */,
+				F728AA1E2573B3FC0026E1BF /* TaquinBoardViewController.swift in Sources */,
 				F728AA1A2573B3FC0026E1BF /* AppDelegate.swift in Sources */,
+				F728AA3E2573CAAB0026E1BF /* TaquinBoardView.swift in Sources */,
+				F728AA3C2573B4BF0026E1BF /* TaquinBoard.swift in Sources */,
+				F728AA40257539670026E1BF /* TaquinBoardViewModel.swift in Sources */,
 				F728AA1C2573B3FC0026E1BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

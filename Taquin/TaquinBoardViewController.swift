@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TaquinBoardViewController.swift
 //  Taquin
 //
 //  Created by Oussama Zroud on 11/29/20.
