@@ -87,14 +87,10 @@
 			children = (
 				F728AA192573B3FC0026E1BF /* AppDelegate.swift */,
 				F728AA1B2573B3FC0026E1BF /* SceneDelegate.swift */,
-				F728AA1D2573B3FC0026E1BF /* TaquinBoardViewController.swift */,
-				F728AA1F2573B3FC0026E1BF /* Main.storyboard */,
+				F728AA4125764D3A0026E1BF /* Module */,
 				F728AA222573B3FE0026E1BF /* Assets.xcassets */,
 				F728AA242573B3FE0026E1BF /* LaunchScreen.storyboard */,
 				F728AA272573B3FE0026E1BF /* Info.plist */,
-				F728AA3B2573B4BF0026E1BF /* TaquinBoard.swift */,
-				F728AA3D2573CAAB0026E1BF /* TaquinBoardView.swift */,
-				F728AA3F257539670026E1BF /* TaquinBoardViewModel.swift */,
 			);
 			path = Taquin;
 			sourceTree = "<group>";
@@ -106,6 +102,42 @@
 				F728AA322573B3FE0026E1BF /* Info.plist */,
 			);
 			path = TaquinTests;
+			sourceTree = "<group>";
+		};
+		F728AA4125764D3A0026E1BF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				F728AA4425764DAE0026E1BF /* Model */,
+				F728AA4225764D690026E1BF /* View */,
+				F728AA4325764D7C0026E1BF /* ViewModel */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		F728AA4225764D690026E1BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F728AA3D2573CAAB0026E1BF /* TaquinBoardView.swift */,
+				F728AA1D2573B3FC0026E1BF /* TaquinBoardViewController.swift */,
+				F728AA1F2573B3FC0026E1BF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F728AA4325764D7C0026E1BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F728AA3F257539670026E1BF /* TaquinBoardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F728AA4425764DAE0026E1BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F728AA3B2573B4BF0026E1BF /* TaquinBoard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
